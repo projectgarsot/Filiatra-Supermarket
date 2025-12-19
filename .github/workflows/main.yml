@@ -34,4 +34,3 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./dist/      # Uploads ONLY the compiled files
-          server-dir: ./public_html/ # The destination folder on Hostinger
